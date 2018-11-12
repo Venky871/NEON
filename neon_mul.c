@@ -55,6 +55,5 @@ mat_R[0]=vmla_lane_s32(mat_R[0],mat_A[1],mat_B[0],1);
 mat_R[1]=vmla_lane_s32(mat_R[1],mat_A[0],mat_B[1],0);
 mat_R[1]=vmla_lane_s32(mat_R[1],mat_A[1],mat_B[1],1);
 mat_print(mat_R,2,2);
-// matresult = vadd_s8 (mat1[i],  mat2[j]);  
 return 0;
 }
