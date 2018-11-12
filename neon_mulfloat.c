@@ -64,7 +64,7 @@ int main()
 		k--;
 	}
 	mat_print(mat_R,2,2);
-	// matresult = vadd_s8 (mat1[i],  mat2[j]);  
+	
 	 end=clock();
 	 double t=((double)(end-start))/CLOCKS_PER_SEC;
 	 printf("\ntime=%f",t);	
